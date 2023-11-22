@@ -13,4 +13,8 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.security.SecureRandom"/>
     <fullyQualifiedTypeName name="lab6.ComplexNumber"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="main.GamePanel"/>
 </qualifiedTypeNameHistroy>

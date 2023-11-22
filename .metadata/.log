@@ -2607,3 +2607,354 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2023-11-22 16:06:08.120
+!MESSAGE Performing Marketplace install request from https://marketplace.eclipse.org/marketplace-client-intro?mpc_install=4254856
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-11-22 16:06:12.374
+!MESSAGE No repository found at https://www.certiv.net/updates/net.certiv.indentguide.site.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-11-22 16:08:54.999
+!MESSAGE No repository found at https://www.certiv.net/updates/net.certiv.indentguide.site.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-11-22 16:08:57.327
+!MESSAGE No repository found at https://www.certiv.net/updates/net.certiv.indentguide.site.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-11-22 16:09:28.867
+!MESSAGE No repository found at https://www.certiv.net/updates/net.certiv.indentguide.site.
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-11-22 16:11:11.045
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Font.<init>(Font.java:111)
+	at org.eclipse.jface.resource.ArrayFontDescriptor.createFont(ArrayFontDescriptor.java:78)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogToolTip.createLabel(CatalogToolTip.java:81)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogToolTip.createToolTipArea(CatalogToolTip.java:58)
+	at org.eclipse.equinox.internal.p2.ui.discovery.util.GradientToolTip.createToolTipContentArea(GradientToolTip.java:60)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:146)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:73)
+	at org.eclipse.epp.mpc.ui.MarketplaceUrlHandler.triggerInstall(MarketplaceUrlHandler.java:166)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter$1.handleInstallRequest(MarketplaceDropAdapter.java:72)
+	at org.eclipse.epp.mpc.ui.MarketplaceUrlHandler.handleUri(MarketplaceUrlHandler.java:222)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.proceed(MarketplaceDropAdapter.java:196)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter$MarketplaceDropTargetListener.lambda$0(MarketplaceDropAdapter.java:319)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SESSION 2023-11-22 16:14:06.227 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-22 16:14:09.775
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-22 16:14:14.966
+!MESSAGE Logback config file: C:\Users\bjk-f\Desktop\Furkan_Bora_Murat\ITU\2023-24 Güz\Programming Algorithms\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-22 16:14:16.940
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-22 16:14:16.940
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-22 16:14:21.407
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bjk-f'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:14:21.472
+!MESSAGE Activator:38 	Indent Guide: Starting...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:17:43.118
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:17:52.202
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:18:17.902
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:18:17.904
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:18:17.905
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:18:17.906
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:18:39.591
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'GamePanel.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:18:39.601
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:18:56.157
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:00.378
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:04.358
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:09.679
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:12.772
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:17.174
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:17.178
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:17.182
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:17.186
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:17.190
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:17.193
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:22.459
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:27.333
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:32.159
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:37.499
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:42.711
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:45.846
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:52.219
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:19:57.540
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:04.770
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:11.070
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:17.199
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:29.042
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:33.619
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:38.052
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:41.988
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:46.170
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:50.145
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:52.831
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:20:55.639
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:21:00.675
+!MESSAGE Starter:198 	Indent Guide: refreshAll...
+!SESSION 2023-11-22 16:23:48.521 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-22 16:23:50.945
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-11-22 16:23:53.424
+!MESSAGE Logback config file: C:\Users\bjk-f\Desktop\Furkan_Bora_Murat\ITU\2023-24 Güz\Programming Algorithms\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-11-22 16:23:55.234
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-22 16:23:55.234
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-22 16:23:59.327
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bjk-f'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:23:59.452
+!MESSAGE Activator:38 	Indent Guide: Starting...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:24:01.132
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Main.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:24:01.148
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:24:03.577
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'GamePanel.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 16:24:03.579
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 18:04:38.926
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'KeyHandler.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 18:04:38.929
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 20:07:29.583
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Runnable.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 20:07:29.588
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 20:07:38.964
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'JPanel.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 20:07:38.967
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 20:08:07.388
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Thread.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 20:08:07.389
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 20:20:00.205
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Thread.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 20:20:00.207
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 22:05:12.096
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'KeyEvent.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 22:05:12.100
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 22:29:45.395
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Dimension.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 22:29:45.396
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 22:29:57.175
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Dimension2D.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 22:29:57.177
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 22:30:02.144
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Cloneable.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-11-22 22:30:02.145
+!MESSAGE Starter:130 	Indent Guide: painter installed

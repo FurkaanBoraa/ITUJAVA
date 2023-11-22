@@ -8,6 +8,7 @@ public class Main {
 		//Create a window with properities below
 		JFrame window = new JFrame();
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 		window.setResizable(false);
 		window.setTitle("Coral Rush - Furkan Bora Murat");
 		
@@ -19,7 +20,7 @@ public class Main {
 		window.setLocationRelativeTo(null);
 		window.setVisible(true);
 		
-
+		gamePanel.startGameThread();
 	}
 
 }

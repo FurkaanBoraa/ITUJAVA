@@ -1,8 +1,0 @@
-package lab6;
-
-public class ComplexNumber {
-	private double real;
-	private double imag;
-	
-	
-}

@@ -1,0 +1,27 @@
+package lab7;
+
+import java.lang.reflect.Array;
+import java.security.SecureRandom;
+import java.util.Arrays;
+
+public class L7Q1 {
+	public static void unique(int[] array) {
+		Arrays.sort(array);
+		for (int i= 0;  i<= array.length; i++) {
+			System.out.println(array[i]);
+		}
+	}
+	
+	public static void main(String[] args) {
+		SecureRandom random = new SecureRandom();
+		int[] array = new int[10];
+		for (int i = 0; i < array.length; i++) {
+			array[i] = random.nextInt(6);
+			System.out.print(array[i]+" ");
+		}
+		System.out.println();
+		unique(array);
+
+	}
+
+}

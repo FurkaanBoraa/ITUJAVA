@@ -1,0 +1,34 @@
+package lab6;
+
+public class ComplexNumber {
+	private double real;
+	private double imag;
+
+	public ComplexNumber(double real, double imag) {
+		this.real = real;
+		this.imag = imag;
+	}
+	
+	public ComplexNumber conjugate(ComplexNumber number) {
+		return new ComplexNumber(number.getReal(),-number.getImag());
+		
+	}
+
+	public double getReal() {
+		return real;
+	}
+
+	public void setReal(double real) {
+		this.real = real;
+	}
+
+	public double getImag() {
+		return imag;
+	}
+
+	public void setImag(double imag) {
+		this.imag = imag;
+	}
+	
+	
+}

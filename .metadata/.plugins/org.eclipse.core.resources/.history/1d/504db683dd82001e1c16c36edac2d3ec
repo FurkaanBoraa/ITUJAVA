@@ -1,0 +1,21 @@
+package lab6;
+
+import java.util.Iterator;
+
+public class ComplexNumberTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ComplexNumber z0 = new ComplexNumber(3,4);
+		ComplexNumber z1 = new ComplexNumber(-1,7);
+		ComplexNumber z2 = new ComplexNumber(4,-1);
+		ComplexNumber z3 = new ComplexNumber(-6,-3);
+		ComplexNumber z[] = {z0,z1,z2,z3};
+		
+		System.out.println("Welcome to Complex Space");
+		for (int i = 0; i < z.length; i++) {
+			System.out.println("z"+i+" = "+z[i].getReal() +"+"+z[i].getImag()+"i");
+		}
+	}
+
+}

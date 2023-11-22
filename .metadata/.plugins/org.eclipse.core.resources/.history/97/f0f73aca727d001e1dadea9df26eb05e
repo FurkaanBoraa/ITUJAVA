@@ -1,0 +1,32 @@
+package lab5;
+
+public class Person {
+	private String name;
+	private String tcNo;
+	private Aquarium aquarium;
+	private Cat cat;
+
+	public Person(String name, String tcNo) {
+		this.name = name;
+		this.tcNo = tcNo;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getTcNo() {
+		return tcNo;
+	}
+
+	public void setTcNo(String tcNo) {
+		this.tcNo = tcNo;
+	}
+
+
+
+}

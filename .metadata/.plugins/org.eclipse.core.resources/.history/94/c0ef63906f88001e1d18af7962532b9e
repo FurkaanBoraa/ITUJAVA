@@ -1,0 +1,37 @@
+package lab7;
+
+import java.security.SecureRandom;
+
+
+public class L7Q1 {
+	public static void unique(int[] array) {
+		boolean flag;
+		for (int i = 0; i < array.length; i++) {
+			flag = true;
+			int checked = array[i];
+			for (int j = 0; j < array.length; j++) {
+				if(checked == array[j]) {
+					flag = false;
+					break;
+				}
+			}
+			if (flag) {
+				System.out.println("a" + checked);
+			}
+		}
+
+	}
+	
+	public static void main(String[] args) {
+		SecureRandom random = new SecureRandom();
+		/*int[] array = new int[10];
+		for (int i = 0; i < array.length; i++) {
+			array[i] = random.nextInt(6);
+			System.out.print(array[i]+" ");
+		}*/
+		int[] array2 = {0,1,7,6,5,4,2,1,0,5,8};
+		unique(array2);
+
+	}
+
+}

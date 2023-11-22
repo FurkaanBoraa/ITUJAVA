@@ -1,0 +1,11 @@
+package lab6;
+
+public class ComplexNumberTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ComplexNumber z1 = new ComplexNumber(3,4);
+		System.out.println(z1.absValue(z1));
+	}
+
+}

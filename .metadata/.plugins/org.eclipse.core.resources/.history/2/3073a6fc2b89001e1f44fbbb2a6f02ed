@@ -1,0 +1,20 @@
+package main;
+
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Creates window for game
+		JFrame window = new JFrame();
+		//Makes that windows properly closes window when clicked X button
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		window.setResizable(false);
+		window.setTitle("Coral Rush - Furkan Bora Murat"); 
+		
+		window.setLocationRelativeTo(null);
+		
+
+	}
+
+}

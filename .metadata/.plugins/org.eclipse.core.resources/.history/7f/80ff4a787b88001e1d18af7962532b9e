@@ -1,0 +1,44 @@
+package lab7;
+
+public class Car {
+	private String plate;
+	private FuelType fuelType;
+	
+	
+	public Car(String plate, FuelType fuelType) {
+		this.plate = plate;
+		this.fuelType = fuelType;
+	}
+
+	public double calculateFuelCost(double liter) {
+		return liter*fuelType.getPriceByLiter();
+	}
+	
+	public String introduceSelf() {
+		return ("A car with plate: " + this.plate + " which is using " + fuelType.getFuelName());
+	}
+
+	public String getPlate() {
+		return plate;
+	}
+
+
+	public void setPlate(String plate) {
+		this.plate = plate;
+	}
+
+
+	public FuelType getFuelType() {
+		return fuelType;
+	}
+
+
+	public void setFuelType(FuelType fuelType) {
+		this.fuelType = fuelType;
+	}
+	
+	
+
+	
+	
+}

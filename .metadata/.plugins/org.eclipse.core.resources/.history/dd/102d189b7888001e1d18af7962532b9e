@@ -1,0 +1,17 @@
+package lab7;
+
+public class Car {
+	private String plate;
+	private FuelType fuelType;
+	
+	
+	public Car(String plate, FuelType fuelType) {
+		this.plate = plate;
+		this.fuelType = fuelType;
+	}
+	
+	
+
+	
+	
+}

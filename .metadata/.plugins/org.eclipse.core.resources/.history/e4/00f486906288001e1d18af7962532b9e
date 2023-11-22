@@ -1,0 +1,31 @@
+package lab7;
+
+import java.util.Arrays;
+
+public class L7Q1 {
+	public static void unique(int[] array) {
+		System.out.println("Unique elements are:");
+		Arrays.sort(array);
+		int check = array[0]; //Initial value to check
+		System.out.println(check);
+		int duplicateCounter = 1;
+		int uniqueCounter=1;
+		for (int i = 1; i < array.length; i++) {
+			int temp = array[i];
+			if(temp != check) {
+				System.out.println(temp+" : " + uniqueCounter);
+				uniqueCounter++;
+				check = temp;
+			} else {
+				uniqueCounter++;
+			}
+		}
+		System.out.println("Number of unique elements is " + uniqueCounter);
+	}
+	public static void main(String[] args) {
+		int[] array = {0,8,0,1,1,2,2,3,3,4,4,8,8};
+		unique(array);
+
+	}
+
+}

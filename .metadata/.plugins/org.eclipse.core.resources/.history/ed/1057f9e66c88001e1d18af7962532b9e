@@ -1,0 +1,39 @@
+package lab7;
+
+import java.security.SecureRandom;
+import java.util.Arrays;
+
+public class L7Q1 {
+	public static void unique(int[] array) {
+		System.out.println("Unique elements and how many times it has been seen:");
+		Arrays.sort(array);
+		int check = array[0]; //Initial value to check
+		boolean duplicateFlag = false;
+
+		for (int i = 1; i < array.length; i++) {
+			int temp = array[i];
+			if(temp != check) {
+				System.out.println(check+" : " + duplicateCounter);
+				check = temp;
+				duplicateFlag = true;
+			}
+			if (duplicateFlag) {
+				System.out.println(check);
+			}
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		SecureRandom random = new SecureRandom();
+		int[] array = new int[10];
+		for (int i = 0; i < array.length; i++) {
+			array[i] = random.nextInt(6);
+			System.out.print(array[i]+" ");
+		}
+		System.out.println();
+		unique(array);
+
+	}
+
+}

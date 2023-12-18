@@ -4762,3 +4762,75 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:43:42.631
 !MESSAGE Activator:38 	Indent Guide: Starting...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:42.553
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Cat.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:42.566
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:43.212
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'MyException.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:43.213
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:44.752
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Person.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:44.754
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:45.882
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Kid.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:45.885
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:47.177
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'YoungAdult.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:47.178
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:49.262
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Adult.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:49.264
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:51.084
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Q1Test.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:51.085
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:51.792
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'DrivingSchool.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:50:51.793
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:52:28.806
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'MainClass.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:52:28.809
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:53:29.344
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Game.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:53:29.346
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:54:59.578
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'GameWindow.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 09:54:59.579
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 10:01:33.088
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'GamePanel.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 10:01:33.089
+!MESSAGE Starter:130 	Indent Guide: painter installed

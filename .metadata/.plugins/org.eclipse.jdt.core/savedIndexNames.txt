@@ -1,6 +1,5 @@
 INDEX VERSION 1.134+C:\Users\bjk-f\Desktop\Furkan_Bora_Murat\ITU\2023-24 Güz\Programming Algorithms\.metadata\.plugins\org.eclipse.jdt.core
 1657330681.index
-2067026430.index
 1865797976.index
 3538092609.index
 2783195863.index

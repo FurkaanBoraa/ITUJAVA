@@ -4834,3 +4834,21 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 10:01:33.089
 !MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 10:55:41.792
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'KeyboardInputs.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 10:55:41.795
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 11:10:30.910
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'MouseInputs.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 11:10:30.911
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 11:54:17.592
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Component.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-18 11:54:17.596
+!MESSAGE Starter:130 	Indent Guide: painter installed

@@ -10,12 +10,13 @@ public class Person {
 	}
 	
 	public String introduceSelf() {
-		String string;
+		String string = "";
 		if(gallery == null) {
 			if(car == null) {
 				string = "A person without a car nor a gallery";
 			}
 		}
+		return string;
 	}
 	
 	public Car getCar() {

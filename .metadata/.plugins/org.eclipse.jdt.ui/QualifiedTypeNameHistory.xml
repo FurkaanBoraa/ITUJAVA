@@ -40,4 +40,6 @@
     <fullyQualifiedTypeName name="inputs.KeyboardInputs"/>
     <fullyQualifiedTypeName name="inputs.MouseInputs"/>
     <fullyQualifiedTypeName name="main.GamePanel"/>
+    <fullyQualifiedTypeName name="lab.Novel"/>
+    <fullyQualifiedTypeName name="lab.Poem"/>
 </qualifiedTypeNameHistroy>

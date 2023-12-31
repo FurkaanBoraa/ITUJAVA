@@ -1,5 +1,7 @@
 package main;
 
+import java.awt.Toolkit;
+
 import javax.swing.JFrame;
 
 public class GameWindow {
@@ -8,8 +10,9 @@ public class GameWindow {
 	public GameWindow(GamePanel gamePanel) {
 
 		jframe = new JFrame();
-		jframe.setSize(600, 900);
-
+		//jframe.setSize(Toolkit.getDefaultToolkit().getScreenSize());
+		jframe.setExtendedState(JFrame.MAXIMIZED_BOTH); // FullScreen
+		jframe.setResizable(false);
 		jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		jframe.add(gamePanel);
 		jframe.setLocationRelativeTo(null); // Starts game in center of screen

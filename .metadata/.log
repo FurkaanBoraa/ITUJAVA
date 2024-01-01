@@ -5332,3 +5332,285 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 13:58:30.807
 !MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 15:36:07.935
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Q1.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 15:36:07.937
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:21:16.184
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'CommercialVehicle.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:21:16.187
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:21:28.553
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'PersonalVehicle.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:21:28.555
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:23:49.510
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Car.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:23:49.511
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:30:19.013
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Bus.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:30:19.014
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:34:51.600
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Override.class' [Unknown/Undefined Content Type]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:34:51.602
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:36:57.408
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Q2Test.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-26 16:36:57.409
+!MESSAGE Starter:130 	Indent Guide: painter installed
+!SESSION 2023-12-27 16:51:27.822 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-27 16:51:30.972
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-27 16:51:33.860
+!MESSAGE Logback config file: C:\Users\bjk-f\Desktop\Furkan_Bora_Murat\ITU\2023-24 Güz\Programming Algorithms\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-27 16:51:35.919
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-27 16:51:35.919
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-27 16:51:39.735
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bjk-f'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-27 16:51:39.828
+!MESSAGE Activator:38 	Indent Guide: Starting...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-27 16:51:41.793
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'PersonalVehicle.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-27 16:51:41.816
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-27 16:51:49.447
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Game.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-27 16:51:49.449
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-27 16:52:14.483
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'MainClass.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-27 16:52:14.485
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-27 17:17:35.504
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Bus.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-27 17:17:35.506
+!MESSAGE Starter:130 	Indent Guide: painter installed
+!SESSION 2023-12-31 10:37:23.462 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-31 10:37:27.190
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-31 10:37:30.118
+!MESSAGE Logback config file: C:\Users\bjk-f\Desktop\Furkan_Bora_Murat\ITU\2023-24 Güz\Programming Algorithms\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-31 10:37:32.061
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-31 10:37:32.061
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-31 10:37:36.332
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bjk-f'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 10:37:36.418
+!MESSAGE Activator:38 	Indent Guide: Starting...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 10:37:38.294
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Bus.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 10:37:38.318
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 10:37:48.279
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'KeyboardInputs.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 10:37:48.282
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 10:37:50.447
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'MouseInputs.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 10:37:50.449
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 16:51:54.282
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'GamePanel.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 16:51:54.287
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 16:51:55.172
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'GameWindow.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 16:51:55.174
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 17:04:58.229
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'MainClass.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 17:04:58.230
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 17:05:00.246
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Game.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 17:05:00.247
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 18:00:01.557
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'MouseInputs.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 18:00:01.561
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 23:49:44.902
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'KeyboardInputs.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2023-12-31 23:49:44.906
+!MESSAGE Starter:130 	Indent Guide: painter installed
+!SESSION 2024-01-01 11:16:07.823 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=20.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-01-01 11:16:12.676
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-01-01 11:16:20.429
+!MESSAGE Logback config file: C:\Users\bjk-f\Desktop\Furkan_Bora_Murat\ITU\2023-24 Güz\Programming Algorithms\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-01-01 11:16:22.987
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-01 11:16:22.987
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-01 11:16:27.632
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bjk-f'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 11:16:27.695
+!MESSAGE Activator:38 	Indent Guide: Starting...
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 11:16:29.432
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'Game.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 11:16:29.452
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 11:17:03.914
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'KeyboardInputs.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 11:17:03.916
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 11:40:36.449
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'MouseInputs.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 11:40:36.452
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 11:40:38.348
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'GameWindow.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 11:40:38.351
+!MESSAGE Starter:130 	Indent Guide: painter installed
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 13:18:34.401
+!MESSAGE Starter:115 	Indent Guide: painter allowed for 'MainClass.java' [Java Source File]
+
+!ENTRY net.certiv.tools.indentguide 1 0 2024-01-01 13:18:34.404
+!MESSAGE Starter:130 	Indent Guide: painter installed

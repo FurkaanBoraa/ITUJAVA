@@ -2,6 +2,8 @@ package main;
 
 import java.awt.Color;
 import java.awt.Toolkit;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowFocusListener;
 
 import javax.swing.JFrame;
 
@@ -21,5 +23,20 @@ public class GameWindow {
 		jframe.setExtendedState(JFrame.MAXIMIZED_BOTH); // FullScreen
 		
 		jframe.setVisible(true); // Should be on bottom to draw when everything is ready
+		jframe.addWindowFocusListener(new WindowFocusListener() {
+			
+			@Override
+			public void windowLostFocus(WindowEvent e) {
+				gamePanel.getGame().windowFocusLost();
+				
+			}
+			
+			@Override
+			public void windowGainedFocus(WindowEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+	
 	}
 }

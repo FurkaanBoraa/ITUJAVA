@@ -1,5 +1,6 @@
 package main;
 
+import java.awt.Color;
 import java.awt.Toolkit;
 
 import javax.swing.JFrame;

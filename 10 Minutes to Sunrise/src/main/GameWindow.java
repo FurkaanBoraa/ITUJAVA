@@ -17,26 +17,26 @@ public class GameWindow {
 		jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		jframe.add(gamePanel);
 		jframe.setLocationRelativeTo(null); // Starts game in center of screen
-		
+
 		jframe.setResizable(false);
 		jframe.pack();
 		jframe.setExtendedState(JFrame.MAXIMIZED_BOTH); // FullScreen
-		
+
 		jframe.setVisible(true); // Should be on bottom to draw when everything is ready
 		jframe.addWindowFocusListener(new WindowFocusListener() {
-			
+
 			@Override
 			public void windowLostFocus(WindowEvent e) {
 				gamePanel.getGame().windowFocusLost();
-				
+
 			}
-			
+
 			@Override
 			public void windowGainedFocus(WindowEvent e) {
 				// TODO Auto-generated method stub
-				
+
 			}
 		});
-	
+
 	}
 }

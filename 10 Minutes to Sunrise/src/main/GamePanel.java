@@ -15,12 +15,11 @@ import inputs.MouseInputs;
 
 import static utils.Constants.PlayerConstants.*;
 import static utils.Constants.Directions.*;
+import static main.Game.*;
 
 public class GamePanel extends JPanel {
 
 	private MouseInputs mouseInputs;
-	private int width = Toolkit.getDefaultToolkit().getScreenSize().width;
-	private int height = Toolkit.getDefaultToolkit().getScreenSize().height;
 	private Game game;
 	
 	public GamePanel(Game game) {
@@ -33,7 +32,7 @@ public class GamePanel extends JPanel {
 	}
 
 	private void setPanelSize() {
-		Dimension size = new Dimension(width, height);
+		Dimension size = new Dimension(GAME_WIDTH, GAME_HEIGHT);
 		setPreferredSize(size);
 
 	}
@@ -43,6 +42,7 @@ public class GamePanel extends JPanel {
 	}
 
 	public void paintComponent(Graphics g) {
+		
 		super.paintComponent(g);
 		game.render(g);
 	}

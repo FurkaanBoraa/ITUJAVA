@@ -2,8 +2,9 @@ package main;
 
 import java.awt.Graphics;
 
-import entities.Player;
-import map.MapManager;
+import gameStates.GameStates;
+import gameStates.Menu;
+import gameStates.Playing;
 
 public class Game implements Runnable {
 
@@ -12,8 +13,9 @@ public class Game implements Runnable {
 	private Thread gameThread;
 	private final int FPS_SET = 120;
 	private final int UPS_SET = 200;
-	private Player player;
-	private MapManager mapManager;
+	private Playing playing;
+	private Menu menu;
+
 	public final static int TILES_DEFAULT_SIZE = 32;
 	public final static float SCALE = 1.875f;
 	public final static int TILES_IN_WIDTH= 32;
@@ -32,8 +34,8 @@ public class Game implements Runnable {
 	}
 
 	private void initClasses() {
-		player = new Player(GAME_WIDTH/2, GAME_HEIGHT/2, 80,80);
-		mapManager = new MapManager(this);
+		menu = new Menu(this);
+		playing= new Playing(this);
 	}
 
 	private void startGameLoop() {
@@ -42,13 +44,35 @@ public class Game implements Runnable {
 	}
 
 	public void update() {
-		player.update();
+		switch (GameStates.state) {
+		case MENU:
+			menu.update();
+			break;
+		case PLAYING:
+			playing.update();
+			break;
+		case OPTIONS:
+		case QUIT:
+		default:
+			System.exit(0);
+			break;
+		
+		}
+		
 	}
 
 	public void render(Graphics g) {
-		mapManager.draw(g);
-		player.render(g);
+		switch (GameStates.state) {
+		case MENU:
+			menu.draw(g);
+			break;
+		case PLAYING:
+			playing.draw(g);
+			break;
+		default:
+			break;
 		
+		}
 	}
 
 	@Override
@@ -95,12 +119,16 @@ public class Game implements Runnable {
 
 	}
 
-	public Player getPlayer() {
-		return player;
-	}
-
 	public void windowFocusLost() {
-		player.resetDirBooleans();
-
+		if (GameStates.state == GameStates.PLAYING) {
+			playing.getPlayer().resetDirBooleans();
+			
+		}
+	}
+	public Menu getMenu() {
+		return menu;
+	}
+	public Playing getPlaying() {
+		return playing;
 	}
 }

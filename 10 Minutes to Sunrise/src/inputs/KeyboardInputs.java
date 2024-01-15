@@ -3,7 +3,10 @@ package inputs;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
+import gameStates.GameStates;
 import main.GamePanel;
+
+import static utils.Constants.Directions.*;
 
 public class KeyboardInputs implements KeyListener {
 	private GamePanel gamePanel;
@@ -20,31 +23,31 @@ public class KeyboardInputs implements KeyListener {
 
 	@Override
 	public void keyPressed(KeyEvent e) {
-		switch (e.getKeyCode()) {
-		case KeyEvent.VK_W: {
-			gamePanel.changeyYDelta(-5);
+		switch(GameStates.state) {
+		case MENU:
+			gamePanel.getGame().getMenu().keyPressed(e);
 			break;
-		}
-		case KeyEvent.VK_A: {
-			gamePanel.changeXDelta(-5);
+		case PLAYING:
+			gamePanel.getGame().getPlaying().keyPressed(e);
 			break;
-		}
-		case KeyEvent.VK_S: {
-			gamePanel.changeyYDelta(5);
+		default:
 			break;
-		}
-		case KeyEvent.VK_D: {
-			gamePanel.changeXDelta(5);
-			break;
-		}
 		}
 
 	}
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		// TODO Auto-generated method stub
-
+		switch(GameStates.state) {
+		case MENU:
+			gamePanel.getGame().getMenu().keyReleased(e);
+			break;
+		case PLAYING:
+			gamePanel.getGame().getPlaying().keyReleased(e);
+			break;
+		default:
+			break;
+		}
 	}
 
 }

@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="getSong"/>
+		<item key="selection" value="enemy"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="getsong"/>
-			<item value="start&quot;"/>
-			<item value="start"/>
-			<item value="&#x09;&#x09;char test = &apos;z&apos;;"/>
-			<item value="Isre"/>
-			<item value="getis"/>
-			<item value="getw"/>
-			<item value="price"/>
-			<item value="public static double simpleCalculator(double num1, double num2, char operand) {"/>
+			<item value="enemy"/>
+			<item value="spawnSleepTime"/>
+			<item value="enemyS"/>
+			<item value="random"/>
+			<item value="shot"/>
+			<item value="sleep"/>
+			<item value="score"/>
+			<item value="enemies"/>
+			<item value="enemy.add"/>
+			<item value="new Enem"/>
+			<item value="checkBu"/>
+			<item value="reset"/>
+			<item value="shap"/>
+			<item value="shape"/>
+			<item value="!="/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="928"/>
-		<item key="DIALOG_Y_ORIGIN" value="121"/>
+		<item key="DIALOG_X_ORIGIN" value="1113"/>
+		<item key="DIALOG_Y_ORIGIN" value="360"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
